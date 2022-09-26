@@ -80,6 +80,7 @@ export interface ReactDatePickerProps<
     dateFormat?: string | string[] | undefined;
     dateFormatCalendar?: string | undefined;
     dayClassName?(date: Date): string | null;
+    selectedDayClassName?(date: Date): string | null;
     weekDayClassName?(date: Date): string | null;
     monthClassName?(date: Date): string | null;
     timeClassName?(date: Date): string | null;
